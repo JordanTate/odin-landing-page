@@ -364,5 +364,9 @@ footer{
         color: #355C7D;
         background-color: #7be495;
     }
-
+}
+@media screen and (max-width: 800px) {
+    .overlay{
+        height: auto;
+    }
 }
