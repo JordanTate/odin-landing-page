@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page | The Odin Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="nav">
+        <img src="https://pineapplewoe.github.io/landing-page/assets/Initial%20Logo.png" alt="Logo" class="logo">
+        <ul class="nav__list">
+            <li class="nav__list-item">
+                <a href="#projects" class="nav__list-link">Projects</a>
+            </li>
+            <li class="nav__list-item">
+                <a href="#about" class="nav__list-link">About</a>
+            </li>
+            <li class="nav__list-item">
+                <a href="#contact" class="nav__list-link">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <div class="hero">
+        <div class="hero__group">
+            <h1 class="hero__group-header">Jordan Tate</h1>
+            <span class="hero__group-tagline">- a portfolio in the making</span>
+            <button type="button" class="hero__group-button">Contact</button>
+        </div>
+        <div class="hero__image">
+            <img src="https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                 alt="Hero Image">
+        </div>
+    </div>
+    <main id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects__group">
+            <div class="projects__group-item">
+                <img src="https://github.com/JordanTate/odin-recipes/blob/main/assets/ODIN-RECIPES_HOMEPAGE.png?raw=true" 
+                     alt="Recipe Website Project">
+                <span><a href="https://jordantate.github.io/odin-recipes">Recipe Website</a></span>
+            </div>
+            <div class="projects__group-item">
+                <img src="https://github.com/JordanTate/odin-recipes/blob/main/assets/ODIN-RECIPES_HOMEPAGE.png?raw=true" 
+                     alt="Placeholder 1">
+                <span><a href="https://jordantate.github.io/odin-recipes">Placeholder</a></span>
+            </div>
+            <div class="projects__group-item">
+                <img src="https://github.com/JordanTate/odin-recipes/blob/main/assets/ODIN-RECIPES_HOMEPAGE.png?raw=true" 
+                     alt="Placeholder 2">
+                <span><a href="https://jordantate.github.io/odin-recipes">Placeholder</a></span>
+            </div>
+            <div class="projects__group-item">
+                <img src="https://github.com/JordanTate/odin-recipes/blob/main/assets/ODIN-RECIPES_HOMEPAGE.png?raw=true" 
+                     alt="Placeholder 3">
+                <span><a href="https://jordantate.github.io/odin-recipes">Placeholder</a></span>
+            </div>
+        </div>
+    </main>
+    <div class="section">
+        <h2><em>Designed with Passion</em></h2>
+    </div>
+    <div id="about" class="about">
+        <h2>Skills</h2>
+        <ul class="about__list">
+            <li class ="about__list-item">HTML, CSS & Javascript</li>
+            <li class ="about__list-break">/</li>
+            <li class ="about__list-item">Social Media Management</li>
+            <li class ="about__list-break">/</li>
+            <li class ="about__list-item">Microsoft Office - Outlook, Excel</li>
+            <li class ="about__list-break">/</li>
+            <li class ="about__list-item"><em>Over 1 Year(s) Paid Experience!</em></li>
+        </ul>
+    </div>
+    <div id="contact" class="contact">
+        <h2>Contact</h2>
+        <form action="" class="contact__form">
+            <div class="top">
+                <div class="top__group">
+                    <label for="name">Name</label>
+                    <input type="name"
+                            name="name"
+                            id="name"
+                            placeholder="John Smith"
+                            required>
+                </div>
+                <div class="top__group">
+                    <label for="email">Email</label>
+                    <input type="email"
+                            name="email"
+                            id="email"
+                            placeholder="example@example.com"
+                            required>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottom__group">
+                <label for="message">Your Message</label>
+                <input type="text"
+                        id="message"
+                        name="message"
+                        placeholder="Write your message here."
+                        required>
+                </div>
+                <button type="button" id="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <span>Copyright © Jordan Tate 2022</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
