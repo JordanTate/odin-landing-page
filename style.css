@@ -348,7 +348,7 @@ footer{
         flex-direction: column;
     }
     .projects__group-item{
-        max-width: 80%;
+        max-width: 100%;
         margin: 1rem 0;
     }
     .contact__form{
