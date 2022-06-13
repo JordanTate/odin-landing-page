@@ -38,7 +38,7 @@ function contactForm(){
     }
 
     submissionTitle.textContent = `Hi! ${userName}!`;
-    submissionMessage.textContent = `Thank you for checking out my Landing Page for the Odin Project. The Contact Form you just used isn't a functional one, but thanks for trying it out!`;
+    submissionMessage.textContent = `Thank you for checking out my Landing Page for the Odin Project. The contact form you just used isn't a functional one, but thanks for trying it out!`;
     yourMessage.textContent = "Your Message:"
     userSubmission.textContent = `${userEmail}: "${userMessage}"`
 
