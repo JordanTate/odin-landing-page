@@ -154,7 +154,7 @@ body, .nav, .hero{
     width: 60%;
 }
 .hero__image img{
-    width: 800px;
+    width: 600px;
     filter: brightness(85%);
     transform: translate(-10px, -10px);
     box-shadow: 10px 10px 0 0 #355C7D;
@@ -177,8 +177,7 @@ body, .nav, .hero{
 .projects__group{
     display: flex;
     gap: 2rem;
-    max-width: 80vw;
-    margin: 0 auto;
+    max-width: 85vw;
 }
 .projects__group-item{
     flex-direction: column;
@@ -332,10 +331,13 @@ footer{
 @media screen and (max-width: 1200px) {
     .hero{
         flex-direction: column-reverse;
-        height: 800px;
+        height: auto;
+        padding-top: 1rem;
     }
     .hero__group{
         width: 100%;
+        height: auto;
+        margin: 4rem 0;
     }
     .hero__group-header, .hero__group span{
         text-align: center;
@@ -344,16 +346,23 @@ footer{
         width: 90%;
     }
     .hero__image img{
-        max-width: 100%;;
+        max-width: 100%;
+        transform: translate(0, 0);
     }
 }
 @media screen and (max-width: 1000px) {
+    .projects{
+        padding: 4rem 0;
+    }
     .projects__group{
         flex-direction: column;
     }
     .projects__group-item{
         max-width: 100%;
         margin: 1rem 0;
+    }
+    .section h2{
+        text-align: center;
     }
     .contact__form{
         width: 90%;
