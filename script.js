@@ -42,6 +42,11 @@ function submitForm(){
     yourMessage.textContent = "Your Message:"
     userSubmission.textContent = `${userEmail}: "${userMessage}"`
 
+    submissionTitle.style.pointerEvents = 'none';
+    submissionMessage.style.pointerEvents = 'none';
+    yourMessage.style.pointerEvents = 'none';
+    userSubmission.style.pointerEvents = 'none';
+
     submissionBox.classList.add('contact__form', 'overlay', 'active');
     submissionTitle.classList.add('center');
     submissionMessage.classList.add('center')
