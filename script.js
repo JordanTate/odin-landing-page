@@ -16,7 +16,7 @@ let inputWarning = document.createElement('p');
 
 contactDiv.insertBefore(inputWarning, contactDiv.firstChild);
 
-function contactForm(){
+function submitForm(){
     userName = document.querySelector('#name').value;
     userEmail = document.querySelector('#email').value;
     userMessage = document.querySelector('#message').value;
@@ -52,7 +52,7 @@ function contactForm(){
     pageBody.append(submissionBox);
 }
 
-contactSubmit.addEventListener('click', contactForm);
+contactSubmit.addEventListener('click', submitForm);
 
 window.addEventListener('click', () => {
     if (submissionBox.classList.contains('active')){
